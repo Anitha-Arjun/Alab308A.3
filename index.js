@@ -26,3 +26,11 @@ async function getUserData(id) {
 
 const user = await getUserData(9);
 console.log(user);
+
+//Invalid numbers
+// const user1 = await getUserData(11);
+// console.log(user1);
+
+//Invalid Data Types
+// const user2 = await getUserData(true);
+// console.log(user2);
